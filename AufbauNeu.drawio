@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T13:16:31.086Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="37k5ODUsyAXi5ykPHZPj" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-12T13:22:51.955Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="eIAi2UN1Saf-nL6cCKpe" version="21.8.0" type="github">
   <diagram name="Page-1" id="Ken90fRENR_DKgnEPoyX">
-    <mxGraphModel dx="989" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="844" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,23 +86,23 @@
           <mxGeometry x="160" y="480" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2kf7gk5V1LucMpKT2yhE-37" value="OPC-UA Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="250" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2kf7gk5V1LucMpKT2yhE-39" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.991;exitY=0.641;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2kf7gk5V1LucMpKT2yhE-35" target="2kf7gk5V1LucMpKT2yhE-37">
+        <mxCell id="2kf7gk5V1LucMpKT2yhE-39" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.991;exitY=0.641;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.188;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2kf7gk5V1LucMpKT2yhE-35" target="2kf7gk5V1LucMpKT2yhE-37">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="290" as="sourcePoint" />
             <mxPoint x="410" y="320" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="430" y="434" />
+              <mxPoint x="360" y="434" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2kf7gk5V1LucMpKT2yhE-40" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2kf7gk5V1LucMpKT2yhE-4" target="2kf7gk5V1LucMpKT2yhE-37">
+        <mxCell id="2kf7gk5V1LucMpKT2yhE-40" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.183;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2kf7gk5V1LucMpKT2yhE-4" target="2kf7gk5V1LucMpKT2yhE-37">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="300" as="sourcePoint" />
-            <mxPoint x="420" y="300" as="targetPoint" />
+            <mxPoint x="360" y="230" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="430" y="130" />
+              <mxPoint x="360" y="130" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -110,6 +110,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="340" as="sourcePoint" />
             <mxPoint x="250" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kf7gk5V1LucMpKT2yhE-42" value="Nvidia Isaac Sim" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kf7gk5V1LucMpKT2yhE-43" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2kf7gk5V1LucMpKT2yhE-37" target="2kf7gk5V1LucMpKT2yhE-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="290" as="sourcePoint" />
+            <mxPoint x="350" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
